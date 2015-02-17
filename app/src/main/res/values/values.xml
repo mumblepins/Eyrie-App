@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="homeHouseTemp" format="float" type="dimen">68</item>
+    <item name="homeFloorTemp" format="float" type="dimen">88</item>
+    <item name="awayHouseTemp" format="float" type="dimen">60</item>
+    <item name="awayFloorTemp" format="float" type="dimen">60</item>
+
+    <item name="SparkApiKeyLength" type="integer">40</item>
+</resources>

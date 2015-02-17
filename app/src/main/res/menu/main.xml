@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:eyrie="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/change_schedule"
+        android:title="View/Change Schedule"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_week"></item>
+    <!-- Settings, should always be in the overflow -->
+
+    <!--<item-->
+        <!--android:id="@+id/action_login"-->
+        <!--android:title="@string/action_login"-->
+        <!--eyrie:showAsAction="never" />-->
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        eyrie:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/action_logout"
+        eyrie:showAsAction="never" />
+
+</menu>

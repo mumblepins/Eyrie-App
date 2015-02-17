@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_switch"
+        android:title="@string/context_add_switch" />
+    <item
+        android:id="@+id/clear_day"
+        android:title="@string/context_clear_day" />
+    <item
+        android:id="@+id/copy_day"
+        android:title="@string/context_copy_day" />
+    <item
+        android:id="@+id/paste_day"
+        android:title="@string/context_paste_day" />
+    <item
+        android:id="@+id/duplicate_day"
+        android:title="@string/context_duplicate_day" />
+</menu>
+

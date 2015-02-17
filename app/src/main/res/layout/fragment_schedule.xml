@@ -1,0 +1,92 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    tools:context="com.dansull.eyrie.ScheduleFragment"
+    android:theme="@style/AppTheme">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearScheduleLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Sunday"/>
+
+        <view
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            class="com.yahoo.mobile.client.android.util.ScheduleBar"
+            android:id="@+id/sundayBar" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Monday"/>
+        <view
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            class="com.yahoo.mobile.client.android.util.ScheduleBar"
+            android:id="@+id/mondayBar" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Tuesday"/>
+        <view
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            class="com.yahoo.mobile.client.android.util.ScheduleBar"
+            android:id="@+id/tuesdayBar" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Wednesday"/>
+        <view
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            class="com.yahoo.mobile.client.android.util.ScheduleBar"
+            android:id="@+id/wednesdayBar"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Thursday"/>
+        <view
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            class="com.yahoo.mobile.client.android.util.ScheduleBar"
+            android:id="@+id/thursdayBar" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Friday"/>
+        <view
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            class="com.yahoo.mobile.client.android.util.ScheduleBar"
+            android:id="@+id/fridayBar" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saturday"
+            android:layout_gravity="center_horizontal"/>
+        <view
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            class="com.yahoo.mobile.client.android.util.ScheduleBar"
+            android:id="@+id/saturdayBar" />
+    </LinearLayout>
+</ScrollView>
+
+
